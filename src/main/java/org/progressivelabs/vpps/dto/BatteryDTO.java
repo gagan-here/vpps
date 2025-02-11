@@ -4,7 +4,10 @@ import com.fasterxml.jackson.annotation.JsonInclude;
 import jakarta.validation.Valid;
 import jakarta.validation.constraints.NotEmpty;
 import jakarta.validation.constraints.Pattern;
-import lombok.*;
+import lombok.AllArgsConstructor;
+import lombok.Getter;
+import lombok.NoArgsConstructor;
+import lombok.Setter;
 import org.progressivelabs.vpps.utils.RegExConstant;
 import org.progressivelabs.vpps.utils.ValidationMessageConstant;
 

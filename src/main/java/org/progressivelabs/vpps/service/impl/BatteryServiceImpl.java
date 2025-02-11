@@ -1,4 +1,4 @@
-package org.progressivelabs.vpps.service;
+package org.progressivelabs.vpps.service.impl;
 
 import org.progressivelabs.vpps.dto.BatteryDTO;
 import org.progressivelabs.vpps.dto.BatteryResponseDTO;
@@ -7,6 +7,7 @@ import org.progressivelabs.vpps.exceptionHandler.customException.BatteryNotFound
 import org.progressivelabs.vpps.exceptionHandler.customException.EmptyListException;
 import org.progressivelabs.vpps.mapper.BatteryMapper;
 import org.progressivelabs.vpps.repository.BatteryRepository;
+import org.progressivelabs.vpps.service.BatteryService;
 import org.progressivelabs.vpps.utils.SuccessMessage;
 import org.progressivelabs.vpps.utils.ValidationMessageConstant;
 import org.springframework.beans.factory.annotation.Autowired;
